@@ -1,7 +1,8 @@
-We utilized USDA nutrition dataset
 
-The dataset is not user friendly, therefore we changed it to be a good fit for the context of our work.
+EZNutriPal uses a modified version the USDA nutrition dataset for dietary monitoring.
 
-There is are columns for food names, their codes in USDA, calorie, ash, fiber, lipid, sugar, and protein values.
+The USDA dataset has been modified for use in the context of our work.
 
-The other columns belong to exisiting unit of measurements in the USDA dataset. If there is a value for them in USDA we put the value, otherwise we put null.
+There are columns for food names, their codes in USDA, calorie, ash, fiber, lipid, sugar, and protein values.
+
+The other columns belong to existing unit of measurements in the USDA dataset. If there is a value for such   columns in the USDA dataset, we replicate the value; otherwise,  we put null.
